@@ -10,6 +10,7 @@
 | :--: | :-------: | :------------------------------------------: | :-----------------------------------------------------------------: | :------------------: | :-------------------------: | :----: |
 |  01  |    A+B    | [1000](https://www.acmicpc.net/problem/1000) | <img src="https://static.solved.ac/tier_small/1.svg" width="20px"/> | 수학, 구현, 사칙연산 | [보기](./Bronze/BOJ1000.js) |        |
 |  02  |    A-B    | [1001](https://www.acmicpc.net/problem/1001) | <img src="https://static.solved.ac/tier_small/1.svg" width="20px"/> | 수학, 구현, 사칙연산 | [보기](./Bronze/BOJ1001.js) |        |
+|  03  |    A/B    | [1001](https://www.acmicpc.net/problem/1008) | <img src="https://static.solved.ac/tier_small/1.svg" width="20px"/> | 수학, 구현, 사칙연산 | [보기](./Bronze/BOJ1008.js) |        |
 
 <br>
 
