@@ -13,15 +13,15 @@
 |  03  |      A/B       | [1008](https://www.acmicpc.net/problem/1008) | <img src="https://static.solved.ac/tier_small/1.svg" width="20px"/> | 수학, 구현, 사칙연산 | [보기](./Bronze/BOJ1008.js) |        |
 |  04  | 두 수 비교하기 | [1330](https://www.acmicpc.net/problem/1330) | <img src="https://static.solved.ac/tier_small/1.svg" width="20px"/> |         구현         | [보기](./Bronze/BOJ1330.js) |        |
 |  05  |   사파리월드   | [2420](https://www.acmicpc.net/problem/2420) | <img src="https://static.solved.ac/tier_small/1.svg" width="20px"/> | 수학, 구현, 사칙연산 | [보기](./Bronze/BOJ2420.js) |        |
-|  06  |  별 찍기 - 1   | [2420](https://www.acmicpc.net/problem/2438) | <img src="https://static.solved.ac/tier_small/1.svg" width="20px"/> |         구현         | [보기](./Bronze/BOJ2438.js) |        |
+|  06  |  별 찍기 - 1   | [2438](https://www.acmicpc.net/problem/2438) | <img src="https://static.solved.ac/tier_small/1.svg" width="20px"/> |         구현         | [보기](./Bronze/BOJ2438.js) |        |
 
 <br>
 
 ### 🥈 Silver
 
-| 번호 | 문제 이름 | 문제 번호 | 난이도 | 유형 | 코드 | 재도전 |
-| :--: | :-------: | :-------: | :----: | :--: | :--: | :----: |
-|      |           |           |        |      |
+| 번호 |   문제 이름   |                  문제 번호                   |                               난이도                                | 유형 |            코드             | 재도전 |
+| :--: | :-----------: | :------------------------------------------: | :-----------------------------------------------------------------: | :--: | :-------------------------: | :----: |
+|  01  | 수 정렬하기 2 | [2751](https://www.acmicpc.net/problem/2751) | <img src="https://static.solved.ac/tier_small/6.svg" width="20px"/> | 정렬 | [보기](./Bronze/BOJ2751.js) |        |
 
 <br>
 
