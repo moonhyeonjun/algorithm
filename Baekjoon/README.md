@@ -6,11 +6,12 @@
 
 ### 🥉 Bronze
 
-| 번호 | 문제 이름 |                  문제 번호                   |                               난이도                                |         유형         |            코드             | 재도전 |
-| :--: | :-------: | :------------------------------------------: | :-----------------------------------------------------------------: | :------------------: | :-------------------------: | :----: |
-|  01  |    A+B    | [1000](https://www.acmicpc.net/problem/1000) | <img src="https://static.solved.ac/tier_small/1.svg" width="20px"/> | 수학, 구현, 사칙연산 | [보기](./Bronze/BOJ1000.js) |        |
-|  02  |    A-B    | [1001](https://www.acmicpc.net/problem/1001) | <img src="https://static.solved.ac/tier_small/1.svg" width="20px"/> | 수학, 구현, 사칙연산 | [보기](./Bronze/BOJ1001.js) |        |
-|  03  |    A/B    | [1001](https://www.acmicpc.net/problem/1008) | <img src="https://static.solved.ac/tier_small/1.svg" width="20px"/> | 수학, 구현, 사칙연산 | [보기](./Bronze/BOJ1008.js) |        |
+| 번호 |   문제 이름    |                  문제 번호                   |                               난이도                                |         유형         |            코드             | 재도전 |
+| :--: | :------------: | :------------------------------------------: | :-----------------------------------------------------------------: | :------------------: | :-------------------------: | :----: |
+|  01  |      A+B       | [1000](https://www.acmicpc.net/problem/1000) | <img src="https://static.solved.ac/tier_small/1.svg" width="20px"/> | 수학, 구현, 사칙연산 | [보기](./Bronze/BOJ1000.js) |        |
+|  02  |      A-B       | [1001](https://www.acmicpc.net/problem/1001) | <img src="https://static.solved.ac/tier_small/1.svg" width="20px"/> | 수학, 구현, 사칙연산 | [보기](./Bronze/BOJ1001.js) |        |
+|  03  |      A/B       | [1008](https://www.acmicpc.net/problem/1008) | <img src="https://static.solved.ac/tier_small/1.svg" width="20px"/> | 수학, 구현, 사칙연산 | [보기](./Bronze/BOJ1008.js) |        |
+|  04  | 두 수 비교하기 | [1330](https://www.acmicpc.net/problem/1330) | <img src="https://static.solved.ac/tier_small/1.svg" width="20px"/> |         구현         | [보기](./Bronze/BOJ1330.js) |        |
 
 <br>
 
