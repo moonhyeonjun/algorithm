@@ -21,7 +21,7 @@
 
 | 번호 |   문제 이름   |                  문제 번호                   |                               난이도                                | 유형 |            코드             | 재도전 |
 | :--: | :-----------: | :------------------------------------------: | :-----------------------------------------------------------------: | :--: | :-------------------------: | :----: |
-|  01  | 수 정렬하기 2 | [2751](https://www.acmicpc.net/problem/2751) | <img src="https://static.solved.ac/tier_small/6.svg" width="20px"/> | 정렬 | [보기](./Bronze/BOJ2751.js) |        |
+|  01  | 수 정렬하기 2 | [2751](https://www.acmicpc.net/problem/2751) | <img src="https://static.solved.ac/tier_small/6.svg" width="20px"/> | 정렬 | [보기](./Silver/BOJ2751.js) |        |
 
 <br>
 
