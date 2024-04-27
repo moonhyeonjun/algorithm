@@ -12,6 +12,7 @@
 |  02  |      A-B       | [1001](https://www.acmicpc.net/problem/1001) | <img src="https://static.solved.ac/tier_small/1.svg" width="20px"/> | 수학, 구현, 사칙연산 | [보기](./Bronze/BOJ1001.js) |        |
 |  03  |      A/B       | [1008](https://www.acmicpc.net/problem/1008) | <img src="https://static.solved.ac/tier_small/1.svg" width="20px"/> | 수학, 구현, 사칙연산 | [보기](./Bronze/BOJ1008.js) |        |
 |  04  | 두 수 비교하기 | [1330](https://www.acmicpc.net/problem/1330) | <img src="https://static.solved.ac/tier_small/1.svg" width="20px"/> |         구현         | [보기](./Bronze/BOJ1330.js) |        |
+|  05  |   사파리월드   | [2420](https://www.acmicpc.net/problem/2420) | <img src="https://static.solved.ac/tier_small/1.svg" width="20px"/> | 수학, 구현, 사칙연산 | [보기](./Bronze/BOJ2420.js) |        |
 
 <br>
 
