@@ -31,7 +31,7 @@
 
 <br>
 
-[백준]: ./Baekjoon
+[백준]: ./백준
 [Pausing]: https://img.shields.io/badge/-Pausing-red
 [ToDo]: https://img.shields.io/badge/-ToDo-yellow
 [Doing]: https://img.shields.io/badge/-Doing-green
