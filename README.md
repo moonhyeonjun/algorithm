@@ -8,6 +8,9 @@
 >
 > ![Doing] &nbsp; **Baekjoon** &nbsp; [↗][백준]  
 > : 백준 온라인 저지 문제 풀이
+>
+> ![Doing] &nbsp; **Programmers** &nbsp; [↗][프로그래머스]  
+>  : 프로그래머스 코딩테스트 연습 문제 풀이
 
 <br>
 
@@ -32,6 +35,7 @@
 <br>
 
 [백준]: ./백준
+[프로그래머스]: ./프로그래머스
 [Pausing]: https://img.shields.io/badge/-Pausing-red
 [ToDo]: https://img.shields.io/badge/-ToDo-yellow
 [Doing]: https://img.shields.io/badge/-Doing-green
