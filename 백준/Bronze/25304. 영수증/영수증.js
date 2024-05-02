@@ -9,4 +9,4 @@ const realPrice = list.reduce((acc, cur) => {
     return acc + price * count;
 }, 0);
 
-totalPrice === realPrice ? console.log('Yes') : console.log('No');
+console.log(totalPrice === realPrice ? 'Yes' : 'No');
