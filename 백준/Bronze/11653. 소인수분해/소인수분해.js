@@ -3,15 +3,9 @@ const input = require('fs').readFileSync(filePath).toString().trim();
 
 let n = parseInt(input);
 
-let factorization = [];
-
 for (let i = 2; i <= n; i++) {
     while (n % i === 0) {
-        factorization.push(i);
         n /= i;
+        console.log(i);
     }
 }
-
-factorization.forEach((element) => {
-    console.log(element);
-});
