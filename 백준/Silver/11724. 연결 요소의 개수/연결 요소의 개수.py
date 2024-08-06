@@ -1,31 +1,35 @@
-from collections import deque
 import sys
-sys.setrecursionlimit(10**6)
+try:
+    sys.stdin = open('run/input.txt', 'r')
+except FileNotFoundError:
+    pass
 input = sys.stdin.readline
 
-def bfs(graph, start, visited):
-    queue = deque([start])
-    visited[start] = True
+from collections import deque
 
-    while queue:
-        v = queue.popleft()
-        for i in graph[v]:
-            if not visited[i]:
-                queue.append(i)
-                visited[i] = True
+def bfs(v):
+    q = deque([v])
+    visited[v] = True
+    while q:
+        v = q.popleft()
+        for e in adj[v]:
+            if not visited[e]:
+                visited[e] = True
+                q.append(e)
 
 n, m = map(int, input().split())
-graph = [[] for _ in range(n+1)]
-for i in range(m):
-    u, v = map(int, input().split())
-    graph[u].append(v)
-    graph[v].append(u)
-
-count = 0
+adj = [[] for _ in range(n+1)]
 visited = [False] * (n+1)
+count = 0
+
+for _ in range(m):
+    u, v = map(int, input().split())
+    adj[u].append(v)
+    adj[v].append(u)
+
 for i in range(1, n+1):
     if not visited[i]:
-        bfs(graph, i, visited)
         count += 1
+        bfs(i)
 
 print(count)
