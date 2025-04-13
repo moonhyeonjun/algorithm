@@ -5,22 +5,23 @@ const input: string = require("fs").readFileSync(filePath).toString().trim();
 const n: number = parseInt(input); 
 
 /**
- * 피보나치 수열을 이용하여 N개의 타일로 만든 장식물의 둘레를 구하는 함수
- * 둘레 공식: 2 × (F(N) + F(N+1))
- * F는 피보나치 수열: F(1) = 1, F(2) = 1, F(3) = 2, ...
+ * 피보나치 기반의 타일 장식물 둘레 계산
+ * - 피보나치 수열을 BigInt로 저장하여 오버플로 방지
+ * - 둘레 공식: `4 * F(N) + 2 * F(N-1)`
  */
-function getPerimeter(n: number): number {
-  const fib: number[] = Array(n + 2).fill(0); // N+1까지 필요하므로 N+2 크기로 선언
-  fib[1] = 1;
-  fib[2] = 1;
+function getPerimeter(n: number): string {
+  if (n === 1) return "4"; // 예외 처리: F(1) = 1, 둘레 = 4
 
-  // 피보나치 수열 계산
-  for (let i = 3; i <= n + 1; i++) {
-    fib[i] = fib[i - 1] + fib[i - 2];
+  const dp: bigint[] = Array(n + 1).fill(BigInt(0));
+  dp[1] = BigInt(1);
+  dp[2] = BigInt(1);
+
+  for (let i = 3; i <= n; i++) {
+    dp[i] = dp[i - 1] + dp[i - 2];
   }
 
-  // 둘레 계산: 2 * (F(N) + F(N+1))
-  return 2 * (fib[n] + fib[n + 1]);
+  // 공식 적용: 4 * F(N) + 2 * F(N-1)
+  return (dp[n] * BigInt(4) + dp[n - 1] * BigInt(2)).toString();
 }
 
 // 결과 출력
